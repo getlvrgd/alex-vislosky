@@ -33,15 +33,16 @@
 *,*::before,*::after{box-sizing:border-box;}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;scroll-padding-top:80px;}
 body{margin:0;background-color:var(--paper);
-  /* blueprint texture: fine grid + faint floor-plan sketch. Keep it barely there */
+  /* blueprint texture: paper grain + fine grid + faint floor plans. Keep it barely there */
   background-image:
     url(images/blueprint.svg),
-    linear-gradient(rgba(28,24,20,.032) 1px,transparent 1px),
-    linear-gradient(90deg,rgba(28,24,20,.032) 1px,transparent 1px),
-    linear-gradient(rgba(28,24,20,.014) 1px,transparent 1px),
-    linear-gradient(90deg,rgba(28,24,20,.014) 1px,transparent 1px);
-  background-size:880px 880px,120px 120px,120px 120px,24px 24px,24px 24px;
-  background-position:0 0,-1px -1px,-1px -1px,-1px -1px,-1px -1px;
+    url(images/paper-grain.svg),
+    linear-gradient(rgba(43,33,24,.024) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(43,33,24,.024) 1px,transparent 1px),
+    linear-gradient(rgba(43,33,24,.011) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(43,33,24,.011) 1px,transparent 1px);
+  background-size:1200px 1200px,240px 240px,120px 120px,120px 120px,24px 24px,24px 24px;
+  background-position:0 0,0 0,-1px -1px,-1px -1px,-1px -1px,-1px -1px;
   color:var(--ink);font-family:var(--text);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden;}
 img{max-width:100%;display:block;height:auto;}
 h1,h2,h3,h4,p,figure,blockquote,ol,ul{margin:0;}
