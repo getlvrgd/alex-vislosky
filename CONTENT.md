@@ -37,12 +37,18 @@ Tags: **video** (YouTube about or title) · **Skool** (free Portfolio Lab or pai
 
 Quoted exactly as titles. The page says "Titles only, not audited results." All come from `skool-research-note.md`, and every one uses "we", "our", or "would we".
 
-- "Our office building: bought for $220K, now about $740K"
-- "Live underwrite: would we buy it at $55K? At $40K?"
+Shown as a deal sheet (bought / refi or value / how it ended). Figures as posted, from these Portfolio Lab feed titles:
+- "My first deal: bought for $31K, pulled out $64K"
+- "$42K house, $21K remodel, $90K cash out refi" ($27K = 90 − 42 − 21)
+- "$57K house. $94K back out without selling it."
+- "Bought for $67,685. Appraised at $155K."
 - "$35K house, $124K appraisal, then we had to evict"
-- "Why we're done with apartments: 13 units, real numbers"
-- "Rates are high. We are still buying."
-- "We went from almost 80 doors down to 56. We make more money now." (also Case 3 fig "~80 → 56")
+- "$65K off market house: hoped for $135K, appraised $124K"
+- "Our office building: bought for $220K, now about $740K"
+
+**Check with Alex:** feed posts may include member or DFY client deals, not only Alex and Antonio's. The sheet is headed "Deals broken down in public" rather than "our deals" for that reason. Confirm which are theirs before launch.
+
+Dropped from the ledger (no hard numbers): live underwrite, apartments exit, rates-still-buying. The 80 → 56 trim stays in Case 3.
 
 **Conflict to note:** the 80-to-56 post sits alongside "70+ acquired" and YouTube's "74 doors and counting". The page frames 70+ as acquired and 56 as trimmed later. Get Alex to confirm.
 
