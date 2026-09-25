@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="880" viewBox="0 0 880 880" fill="none" stroke="#1C1814" stroke-linecap="square">
+  <!-- Faint floor plan + house elevation, tiled behind the cream sections. Opacity is set per group here (group opacity multiplies). Keep it very low. -->
+  <g opacity=".06" stroke-width="1.4">
+    <!-- floor plan: outer walls -->
+    <path d="M110 150h420v320H110z" stroke-width="3"/>
+    <!-- interior walls -->
+    <path d="M300 150v130M300 330v140M110 300h120M270 300h30M300 260h90M430 260h100M410 370h120"/>
+    <!-- door swings -->
+    <path d="M230 300a40 40 0 0 1 40-40M230 300h40" />
+    <path d="M300 290a40 40 0 0 0 40 40M300 330h40" stroke-dasharray="0"/>
+    <path d="M390 260a40 40 0 0 1 40 40M390 260v40"/>
+    <path d="M410 370a36 36 0 0 0-36 36M410 370v36"/>
+    <path d="M180 470a44 44 0 0 1 44-44M180 470h44"/>
+    <!-- windows (double lines in the wall) -->
+    <path d="M150 146h70M150 154h70M360 146h90M360 154h90M526 190v60M534 190v60M106 360v70M114 360v70"/>
+    <!-- stair -->
+    <path d="M440 390h70v70h-70zM440 400h70M440 410h70M440 420h70M440 430h70M440 440h70M440 450h70M475 455v-60l-6 10M475 395l6 10"/>
+    <!-- kitchen counter + island -->
+    <path d="M310 160h110v22H310zM330 205h70v30h-70z"/>
+    <!-- dimension lines -->
+    <path d="M110 110h420M110 102v16M530 102v16M300 104v12" stroke-opacity=".6"/>
+    <path d="M570 150v320M562 150h16M562 470h16M564 300h12" stroke-opacity=".6"/>
+    <path d="M60 150v150M52 150h16M52 300h16" stroke-opacity=".6" stroke-dasharray="4 5"/>
+  </g>
+
+  <!-- elevation sketch: gable house with scaffold, lower right -->
+  <g opacity=".05" stroke-width="1.3" transform="translate(470 560)">
+    <path d="M40 240V120l130-90 130 90v120z" stroke-width="2.4"/>
+    <path d="M0 240h360"/>
+    <path d="M75 150h50v50H75zM215 150h50v50h-50zM100 150v50M75 175h50M240 150v50M215 175h50M150 175h40v65h-40z"/>
+    <path d="M150 88h40v30h-40z"/>
+    <!-- scaffold -->
+    <path d="M300 240V100M340 240V100M300 100h40M300 140h40M300 180h40M300 220h40M300 140l40 40M340 180l-40 40" stroke-opacity=".8"/>
+  </g>
+
+  <!-- north arrow + section marker, upper right -->
+  <g opacity=".05" stroke-width="1.3">
+    <circle cx="720" cy="170" r="30"/>
+    <path d="M720 125v90M720 125l-9 22M720 125l9 22"/>
+    <circle cx="690" cy="360" r="18"/>
+    <path d="M672 360h36M620 360h52M708 360h60"/>
+  </g>
+
+  <!-- construction lines -->
+  <g opacity=".05" stroke-width="1" stroke-dasharray="2 7">
+    <path d="M0 520h880M620 0v880M80 560l300 300"/>
+  </g>
+</svg>
